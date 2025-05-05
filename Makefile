@@ -1,9 +1,12 @@
-NAME    = fractol
+NAME    		= fractol
+CC      		= cc
+CFLAGS  		= -Wall -Wextra -Werror
+MAKE			= 
+MKDIR			= mkdir -p
+RM				= rm -rf
 
-SOURCES = src/color.c src/events.c src/fractol.c src/
+LIBFT_DIR		= libft
+LIBFT			= $(LIBFT_DIR)/libft.a
 
-CC      = gcc
-CFLAGS  = -Wall -Wextra -Werror
-
-LIB_PATH
-LIB_NA
+INCLUDES_DIR	= includes
+INCLUDES_FLAG	= 
