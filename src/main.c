@@ -6,7 +6,7 @@
 /*   By: nsuwaphr <nsuwaphr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/25 14:06:48 by nsuwaphr          #+#    #+#             */
-/*   Updated: 2025/05/05 18:21:38 by nsuwaphr         ###   ########.fr       */
+/*   Updated: 2025/05/05 18:51:53 by nsuwaphr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,5 +20,7 @@ int main(int ac, char **argv)
         // is correct --> Man || julia
     }
     else
-        exit;
+    {
+        
+    }
 }

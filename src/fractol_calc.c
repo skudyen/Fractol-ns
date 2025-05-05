@@ -6,11 +6,8 @@
 /*   By: nsuwaphr <nsuwaphr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/25 14:06:00 by nsuwaphr          #+#    #+#             */
-/*   Updated: 2025/05/05 18:12:01 by nsuwaphr         ###   ########.fr       */
+/*   Updated: 2025/05/05 18:48:47 by nsuwaphr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/fractol.h"
-
-int mandelbrot_calc(t_fractal *f, t_complex *z, t_complex *c)
-{}
