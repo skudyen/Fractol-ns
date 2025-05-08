@@ -6,7 +6,7 @@
 /*   By: nsuwaphr <nsuwaphr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/25 16:17:57 by nsuwaphr          #+#    #+#             */
-/*   Updated: 2025/05/05 17:59:03 by nsuwaphr         ###   ########.fr       */
+/*   Updated: 2025/05/06 15:47:25 by nsuwaphr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,10 @@
 # include "libft.h"
 # include "printf.h"
 # include <math.h>
+# include <stdlib.h>
 # include <unistd.h>
 
+# define ERROR_MSG "|---------- ERROR ----------|" 
 # define WIDTH 800
 # define HEIGHT 800
 
@@ -33,10 +35,18 @@ typedef struct s_complex
     double  in;
 }   t_complex;
 
+typedef struct s_img
+{
+    void    *img_ptr;
+    char    *px;
+}   t_img;
+
 typedef struct s_fractal
 {
     mlx_t       *mlx;
     mlx_t       *win;
+    
+    t_img       img;
     
     int         iter;
     

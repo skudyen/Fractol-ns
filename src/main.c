@@ -6,7 +6,7 @@
 /*   By: nsuwaphr <nsuwaphr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/25 14:06:48 by nsuwaphr          #+#    #+#             */
-/*   Updated: 2025/05/05 18:51:53 by nsuwaphr         ###   ########.fr       */
+/*   Updated: 2025/05/06 14:58:43 by nsuwaphr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,12 +15,12 @@
 int main(int ac, char **argv)
 {
     if (2 == ac && ft_strncmp(ac[1], "Mandelbrot", 10))
-        || (2 == ac && ft_strncmp(ac[1], "Julia", 5));
+        || (2 == ac && ft_strncmp(ac[1], "Julia", 5))
     {
         // is correct --> Man || julia
     }
     else
-    {
-        
+    { 
+        exit(EXIT_FAILURE);
     }
 }

@@ -6,12 +6,11 @@
 /*   By: nsuwaphr <nsuwaphr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/25 14:07:14 by nsuwaphr          #+#    #+#             */
-/*   Updated: 2025/05/05 18:48:40 by nsuwaphr         ###   ########.fr       */
+/*   Updated: 2025/05/06 16:28:25 by nsuwaphr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/fractol.h"
 
 char    *ft_program_name(int nb)
-{
-}
+{}
